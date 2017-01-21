@@ -426,7 +426,7 @@ map.on("overlayadd", function(e) {
     syncSidebar();
   }
   if (e.layer === syokuhinkakouLayer) {
-    markerClusters.addLayer(syokuhinkakouLayer);
+    markerClusters.addLayer(syokuhinkakou);
     syncSidebar();
   }
 });
