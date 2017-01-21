@@ -365,7 +365,7 @@ var syokuhinkakou = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
       icon: L.icon({
-        iconUrl: "icon/syokuhinkakou.png",
+        iconUrl: "icon/curedproduct.png",
         iconSize: [24, 28],
         iconAnchor: [12, 28],
         popupAnchor: [0, -25]
