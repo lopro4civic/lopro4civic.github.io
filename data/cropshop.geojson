@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "iata": "00M", "title": "アグリランド　シティショップ", "city": "宮園町5-4　東武百貨店宇都宮店　地下1階食品フロア", "Tel": "090-1103-2650", "country": "Japan", "latitude": 36.556900, "longitude": 139.883493 }, "geometry": { "type": "Point", "coordinates": [ 139.883493, 36.5569003 ] } },
+{ "type": "Feature", "properties": { "iata": "00R", "title": "パティスリーメルシー　地元産野菜コーナー", "city": "砥上町795-4", "Tel": "028-649-0607", "country": "Japan", "latitude": 36.540743, "longitude": 139.842410 }, "geometry": { "type": "Point", "coordinates": [ 139.8424104, 36.5407428 ] } },
+{ "type": "Feature", "properties": { "iata": "00V", "title": "豊郷地区農産物直売所", "city": "関堀町371-4", "Tel": "なし", "country": "Japan", "latitude": 36.592799, "longitude": 139.899847 }, "geometry": { "type": "Point", "coordinates": [ 139.899846700000012, 36.5927985 ] } },
+{ "type": "Feature", "properties": { "iata": "01G", "title": "ふれあいこもりや直売所", "city": "上籠谷町3356", "Tel": "028-667-0343", "country": "Japan", "latitude": 36.510999, "longitude": 139.969679 }, "geometry": { "type": "Point", "coordinates": [ 139.9696792, 36.5109986 ] } },
+{ "type": "Feature", "properties": { "iata": "01J", "title": "雀宮青空市", "city": "東谷町529", "Tel": "なし", "country": "Japan", "latitude": 36.479425, "longitude": 139.899941 }, "geometry": { "type": "Point", "coordinates": [ 139.899941, 36.4794255 ] } }
+]
+}
