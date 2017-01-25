@@ -11,7 +11,8 @@ UrbanDataChallengeへ応募予定のLoProは地産地消を促進する目的の
 * 食品加工事業所（地産地消推進店）
 
 ## 使用ライブラリ
-* Map: Leaflet.js
+* Map: Leaflet
 * UI: Bootstrap
+
 ## 連絡先
 Mail: lo.pro.4.civic@gmail.com
