@@ -14,11 +14,25 @@ UrbanDataChallengeへ応募予定のLoProは地産地消を促進する目的の
 * Map: Leaflet, MapBox
 * UI: Bootstrap
 
-## ICON
-* 1
-* 2
-* 3
-* 4
+## Icon
+
+各アイコンは著作権フリーのものを使用しております。
+*  飲食店
+This icon is authorized by the author for free usage, modification and publication.
+
+See the following link for detail.
+
+https://commons.wikimedia.org/wiki/File:Aiga_restaurant_knife-fork_crossed.png
+
+* 農産物直売所
+This icon is authorized by pixabay for free and business usage, modification and share.
+
+* スーパー
+This icon is authorized by pixabay for free and business usage, modification and share.
+
+* 食品加工工場
+This icon is authorized by pixabay for free and business usage, modification and share.
+ 
 
 ## 連絡先
 Mail: lo.pro.4.civic@gmail.com
