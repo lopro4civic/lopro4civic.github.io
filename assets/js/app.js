@@ -259,8 +259,8 @@ var theaters = L.geoJson(null, {
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.NAME + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       theaterSearch.push({
-        name: layer.feature.properties.title,
-        address: layer.feature.properties.city,
+        name: layer.feature.properties.titTitlele,
+        address: layer.feature.properties.City,
         source: "Theaters",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -530,11 +530,11 @@ var baseLayers = {
 };
 
 var groupedOverlays = {
-  "Points of Interest": {
+  "カテゴリー": {
     "<img src='icon/insyoukuten.png' width='24' height='28'>&nbsp;飲食店": theaterLayer,
     "<img src='icon/ryohanten.png' width='24' height='28'>&nbsp;スーパー": museumLayer,
     "<img src='icon/nosanbutsu.png' width='24' height='28'>&nbsp;農産物直売所": nosanbutsuLayer,
-    "<img src='icon/syokuhinkakou.png' width='24' height='28'>&nbsp;食品加工工場": syokuhinkakouLayer
+    "<img src='icon/curedproduct.png' width='24' height='28'>&nbsp;食品加工工場": syokuhinkakouLayer
   },
   // "Reference": {
   //   "Boroughs": boroughs,
@@ -755,3 +755,22 @@ if (!L.Browser.touch) {
 } else {
   L.DomEvent.disableClickPropagation(container);
 }
+
+//現在位置
+function onLocationFound(e) {
+    var radius = e.accuracy / 2;
+    var location = e.latlng
+    L.marker(location).addTo(map)
+    L.circle(location, radius).addTo(map);
+ }
+
+ function onLocationError(e) {
+    alert(e.message);
+ }
+
+ function getLocationLeaflet() {
+    map.on('locationfound', onLocationFound);
+    map.on('locationerror', onLocationError);
+
+    map.locate({setView: true, maxZoom: 16});
+ }
