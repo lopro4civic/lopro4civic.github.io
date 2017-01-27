@@ -28,9 +28,7 @@ LoProは、宇都宮市が公開するオープンデータを活用しユーザ
 各アイコンは著作権フリーのものを使用しております。
 * 飲食店
 This icon is authorized by the author for free usage, modification and publication.
-
 See the following link for detail.
-
 https://commons.wikimedia.org/wiki/File:Aiga_restaurant_knife-fork_crossed.png
 
 * 農産物直売所
